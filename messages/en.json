@@ -1,9 +1,9 @@
 {
   "Hero": {
     "booking": "Book Now",
-    "selectTransportType": "Select Transport Type",
-    "weTransport": "We transport all types of vehicles with specialized carriers for maximum safety",
-    "deliveryTracking": "On-time delivery with real-time tracking for your peace of mind"
+    "selectTransportType": "Our Specialized Car Transport Services",
+    "weTransport": "Fast, Safe & Affordable Car Transport from Port to Your City",
+    "deliveryTracking": "We specialize in hassle-free car delivery directly from port to your doorstep. Get your vehicle delivered securely, on time, and at a competitive price"
   },
   "TransportTypes": {
     "sedan": "Sedan",

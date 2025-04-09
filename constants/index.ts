@@ -9,29 +9,29 @@ export const navLinks = [
 export const transportOptions = [
   {
     id: 1,
-    transportType: "სედანი",
-    text: "დროული მიწოდება რეალურ დროში თვალყურის დევნება თქვენი სიმშვიდისთვის",
+    transportType: "Sedan",
+    text: "Standard car – ideal for personal or family vehicles",
     image: "/assets/sedan.png",
     styles: { bg: "#D7F5E5" },
   },
   {
     id: 2,
-    transportType: "მოტოციკლი",
-    text: "დროული მიწოდება რეალურ დროში თვალყურის დევნება თქვენი სიმშვიდისთვის",
+    transportType: "Motorcycle",
+    text: "Two-wheeled vehicles, handled with secure equipment",
     image: "/assets/motorcycle.png",
     styles: { bg: "#EEE1FE" },
   },
   {
     id: 3,
-    transportType: "ჯიპი",
-    text: "დროული მიწოდება რეალურ დროში თვალყურის დევნება თქვენი სიმშვიდისთვის",
+    transportType: "Suv",
+    text: "Larger vehicles with more space or off-road capability",
     image: "/assets/jeep.png",
     styles: { bg: "#FFE9E3" },
   },
   {
     id: 4,
-    transportType: "ფურგონი",
-    text: "დროული მიწოდება რეალურ დროში თვალყურის დევნება თქვენი სიმშვიდისთვის",
+    transportType: "Van",
+    text: "Commercial or multi-passenger transport vehicles",
     image: "/assets/van.png",
     styles: { bg: "#E5F0FF" },
   },
@@ -39,47 +39,47 @@ export const transportOptions = [
 
 export const contactOptions = [
   {
-    title: "მოგვწერეთ",
-    description: "ესაუბრეთ ჩვენს მეგობრულ გუნდს.",
+    title: "Email Us",
+    description: "Send us your inquiry — we’ll respond within one business day",
     contactInfo: "info@transferauto.ge",
     icon: "/assets/mail.png", // Replace with actual icon path
   },
   {
-    title: "გვეწვიეთ",
-    description: "ეწვიეთ ჩვენს ოფისს.",
+    title: "Visit Us",
+    description: "Our office is open for appointments",
     contactInfo: "123 Transport Street Tbilisi, Georgia",
     icon: "/assets/location.png", // Replace with actual icon path
   },
   {
-    title: "დაგვირეკეთ",
-    description: "ორშ-პარ 8:00 - 17:00",
-    contactInfo: "+1 (555) 000-0000",
+    title: "Call Us",
+    description: "We’re available Monday to Friday, 9:00 AM – 6:00 PM.",
+    contactInfo: "+995 (555) 11 66 99",
     icon: "/assets/phone.png", // Replace with actual icon path
   },
 ];
 
 export const whyUsOptions = [
   {
-    title: "სწრაფი და საიმედო",
-    description: "დროული მიწოდება რეალურ დროში.",
+    title: "Trusted by car buyers, dealers & importers",
+    description: "We’ve built long-term trust with thousands of customers — from individuals importing vehicles to major auto dealers",
     icon: "/assets/calendar.png",
     bgColor: "#EEE1FE",
   },
   {
-    title: "უსაფრთხო და საიმედო",
-    description: "ჩვენი ტრანსპორტი ყოველთვის უსაფრთხოა.",
+    title: "Transparent pricing, no hidden fees",
+    description: "Know what you’re paying for. Our quotes include everything — no surprise charges, ever",
     icon: "/assets/safe.png",
     bgColor: "#E5F0FF",
   },
   {
-    title: "კონკურენტული ფასები",
-    description: "ჩვენ გთავაზობთ საუკეთესო ფასებს.",
+    title: "Real-time updates on delivery status",
+    description: "Track your car every step of the way with our live delivery tracking system",
     icon: "/assets/money.png",
     bgColor: "#D7F5E5",
   },
   {
-    title: "მეგობრული გუნდი",
-    description: "ჩვენი გუნდი მუდამ მზადაა დაეხმაროს.",
+    title: "Experienced drivers and logistics team",
+    description: "Your car is in good hands — driven by professionals, handled by experts, and delivered with care",
     icon: "/assets/people.png",
     bgColor: "#FFE9E3",
   },
@@ -88,26 +88,26 @@ export const whyUsOptions = [
 export const transports = [
   {
     id: "sedan",
-    label: "სედანი",
-    desc: "ოთხი კარები და განახლებული სალონი",
+    label: "Sedan",
+    desc: "Your car is in good hands — driven by professionals, handled by experts, and delivered with care",
     icon: "/assets/sedan.png",
   },
   {
     id: "jeep",
-    label: "ჯიპი",
-    desc: "ოთხი კარები და განახლებული სალონი",
+    label: "Suv",
+    desc: "Larger vehicles with more space or off-road capability",
     icon: "/assets/jeep.png",
   },
   {
     id: "motorcycle",
-    label: "მოტოციკლი",
-    desc: "ოთხი კარები და განახლებული სალონი",
+    label: "Motorcycle",
+    desc: "Two-wheeled vehicles, handled with secure equipment",
     icon: "/assets/motorcycle.png",
   },
   {
     id: "furgon",
-    label: "ფურგონი",
-    desc: "ოთხი კარები და განახლებული სალონი",
+    label: "Van",
+    desc: "Commercial or multi-passenger transport vehicles",
     icon: "/assets/van.png",
   },
 ];
@@ -115,26 +115,26 @@ export const transports = [
 export const directions = [
   {
     id: 1,
-    from: "ფოთი",
-    to: "თბილისი",
-    distance: 350,
+    from: "Poti",
+    to: "Tbilisi",
+    distance: 300,
   },
   {
     id: 2,
-    from: "ქუთაისი",
-    to: "თბილისი",
-    distance: 350,
+    from: "Poti",
+    to: "Batumi",
+    distance: 70,
   },
   {
     id: 3,
-    from: "ფოთი",
-    to: "ქუთაისი",
+    from: "Batumi",
+    to: "Tbilisi",
     distance: 350,
   },
   {
     id: 4,
-    from: "გორი",
-    to: "თბილისი",
-    distance: 350,
+    from: "A",
+    to: "B",
+    distance: 0,
   },
 ];

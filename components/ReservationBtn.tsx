@@ -20,7 +20,7 @@ const ReservationBtn = ({ className, children }: ReservationBtnProps) => {
           className
         )}
       >
-        {children ?? "დაჯავშნა"}
+        {children ?? "Book Now"}
       </DialogTrigger>
       <ReservationModal />
     </Dialog>

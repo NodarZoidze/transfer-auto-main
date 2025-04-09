@@ -9,10 +9,11 @@ const Contact = () => {
     >
       <div className="flex flex-col gap-2 text-center">
         <h3 className="text-[#252324] text-[36px] font-semibold">
-          ჩვენ სიამოვნებით მოგისმენთ
+        Get in Touch with TransferAuto
         </h3>
         <p className="text-lg font-normal text-[#6E7375]">
-          დაუკავშირდით ჩვენს მეგობრულ გუნდს.
+        Have questions or ready to book? Our friendly team is 
+        here to help you with everything from quotes to vehicle status updates
         </p>
       </div>
 

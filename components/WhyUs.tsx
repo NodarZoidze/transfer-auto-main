@@ -6,9 +6,14 @@ const WhyUs = () => {
   return (
     <section className="w-full py-20 px-4" id="why-us">
       <div className="flex flex-col gap-5 text-start">
-        <h3 className="text-[#252324] text-[36px] font-semibold">რატომ ჩვენ</h3>
+        <h3 className="text-[#252324] text-[36px] font-semibold">Why Us</h3>
         <p className="text-lg font-normal text-[#6E7375]">
-          ჩვენ გთავაზობთ პროფესიონალურ მომსახურებას, რომელიც აღემატება მოლოდინს
+        At TransferAuto, we specialize in reliable car transportation 
+        from major ports to cities across Georgia. Whether you're importing 
+        a personal vehicle or managing deliveries for a dealership, our fully 
+        insured and professional service guarantees a smooth and secure experience. 
+        Our expert drivers and logistics team ensure every car arrives safely, 
+        on time — every time
         </p>
       </div>
 

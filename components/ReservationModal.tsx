@@ -54,7 +54,7 @@ export function ReservationModal() {
         </div>
       </DialogClose>
       <DialogTitle className="text-left text-base text-[#101828] pb-0 md:pb-6 font-medium max-h-[60px]">
-        სერვისის დაჯავშნა
+      Service booking
       </DialogTitle>
 
       {/* Progress bars in a row */}
@@ -74,7 +74,7 @@ export function ReservationModal() {
         {step === "select" && (
           <div className="w-full">
             <h2 className="text-left text-base text-[#101828] pb-6 font-medium">
-              არჩიე ტრანსპორტის ტიპი
+            Select Vehicle Type
             </h2>
 
             <div className="space-y-4">
@@ -116,7 +116,7 @@ export function ReservationModal() {
                 className="h-12 bg-[#6A04FE] hover:bg-[#6A04FE] cursor-pointer text-white text-base font-medium px-6 py-4 rounded-full mt-10"
                 onClick={() => setStep("direction")}
               >
-                გაგრძელება
+                Next
               </Button>
             </div>
           </div>
@@ -125,7 +125,7 @@ export function ReservationModal() {
         {step === "direction" && (
           <div className="w-full">
             <h2 className="text-left text-base text-[#101828] pb-6 font-medium">
-              არჩიე მიმართულება
+            Choose Your Transport Route
             </h2>
             <SearchDirection query={query} setQuery={setQuery} />
 
@@ -156,7 +156,7 @@ export function ReservationModal() {
                       <span>{direction.from}</span>-<span>{direction.to}</span>
                     </div>
                     <p className="text-sm font-normal text-[#6E7375]">
-                      მანძილი: {direction.distance}
+                      Distance: {direction.distance}
                     </p>
                   </div>
 
@@ -174,14 +174,14 @@ export function ReservationModal() {
                   className="h-12 text-[#6A04FE] bg-transparent hover:bg-transparent cursor-pointer text-base font-medium px-6 py-4 rounded-full"
                   onClick={() => setStep("select")}
                 >
-                  უკან
+                  Back
                 </Button>
                 <Button
                   className="h-12 bg-[#6A04FE] hover:bg-[#6A04FE] cursor-pointer text-white text-base font-medium px-6 py-4 rounded-full disabled:opacity-50 disabled:cursor-not-allowed"
                   onClick={() => setStep("details")}
                   disabled={!selectedDirection}
                 >
-                  გაგრძელება
+                  Next
                 </Button>
               </div>
             </div>
@@ -191,7 +191,7 @@ export function ReservationModal() {
         {step === "details" && (
           <div className="w-full">
             <h2 className="text-left text-base text-[#101828] pb-6 font-medium">
-              შეავსე პირადი დეტალები
+            Enter Your Contact & Vehicle Details
             </h2>
             <PrivateDetailsForm
               setStep={setStep}
@@ -205,7 +205,7 @@ export function ReservationModal() {
         {step === "confirmation" && (
           <div className="w-full">
             <h2 className="text-left text-base text-[#101828] pb-6 font-medium">
-              სერვისის დაჯავშნა
+            
             </h2>
 
             <div className="w-full h-[400px] flex flex-col gap-6 items-center justify-center text-center">
@@ -219,11 +219,14 @@ export function ReservationModal() {
                 />
               </div>
               <h2 className="text-[#131214] font-semibold text-2xl">
-                დაჯავშნა წარმატებით შესრულდა!
+              Booking Successfully Submitted!
               </h2>
               <p className="text-[#6E7375] font-normal text-sm max-w-[408px]">
-                თქვენი მოთხოვნა მიღებულია და მუშავდება. ჯავშნის დეტალები
-                გამოგზავნილი თქვენს მიერ მითითებულ ელ-ფოსტაზე.
+              Thank you — your request has been received and is being processed. 
+              You’ll receive a confirmation email shortly with the delivery details 
+              and next steps. If you have any questions in the meantime, feel free to 
+              reach out. info@transferauto.ge +995 555 11 66 99
+              Average response time: under 1 hour during business hours.
               </p>
             </div>
           </div>
@@ -232,13 +235,13 @@ export function ReservationModal() {
         {step === "summary" && (
           <div className="w-full">
             <h2 className="text-left text-base text-[#101828] pb-6 font-medium">
-              სერვისის დაჯავშნა
+              Service booking
             </h2>
 
             <div className="flex flex-col sm:flex-row gap-6">
               <div className="flex-1 flex flex-col gap-4">
                 <h3 className="font-medium text-[#101828] text-base">
-                  ჯავშნის დეტალები
+                  Booking details
                 </h3>
                 <div className="rounded-[16px] border border-[#E0E0E0] py-1">
                   {/* Transport type */}
@@ -254,7 +257,7 @@ export function ReservationModal() {
                         height={21}
                       />
                     }
-                    label="ტრანსპორტის ტიპი"
+                    label="Transport type"
                     value={
                       transports.find((t) => t.id === selectedTransport)
                         ?.label ?? "Unknown"
@@ -262,34 +265,34 @@ export function ReservationModal() {
                   />
                   <SummaryItem
                     icon={<TiLocation size={20} />}
-                    label="მიმართულება"
+                    label="Destination"
                     value={selectedDirection}
                     type="destination"
                   />
                   <SummaryItem
                     icon={<TiLocation size={20} />}
-                    label="ჩამოსვლის დრო"
-                    value="1-2 დღე"
+                    label="Delivery Time"
+                    value="1-2 day"
                   />
                 </div>
               </div>
 
               <div className="flex-1 flex flex-col gap-4">
-                <h3>პირადი დეტალები</h3>
+                <h3>Personal Info</h3>
                 <div className="rounded-[16px] border border-[#E0E0E0] py-1">
                   <SummaryItem
                     icon={<IoPerson size={20} />}
-                    label="სრული სახელი"
+                    label="Full Name"
                     value={personalDetails.name}
                   />
                   <SummaryItem
                     icon={<MdEmail size={20} />}
-                    label="ელ-ფოსტა"
+                    label="Email Adresse"
                     value={personalDetails.email}
                   />
                   <SummaryItem
                     icon={<FaPhone size={20} />}
-                    label="მობილურის ნომერი"
+                    label="Mobile Number"
                     value={personalDetails.phone}
                   />
                 </div>
@@ -298,7 +301,7 @@ export function ReservationModal() {
 
             <div className="flex flex-col gap-4 mt-5">
               <h3 className="text-base text-[#101828]">
-                დამატებითი ინფორმაცია
+                Vehicle Information
               </h3>
               <div className="w-full h-[134px] bg-[#E0E0E0] rounded-[16px] py-3 px-4">
                 {personalDetails.message}
@@ -307,8 +310,8 @@ export function ReservationModal() {
 
             <div className="flex justify-between items-center mt-10">
               <div className="w-[60px] h-[52px] flex flex-col gap-[6px] text-sm font-medium text-[#6E7375]">
-                ფასი:
-                <span className="font-bold text-[#6A04FE] text-2xl">$350</span>
+                Price:
+                <span className="font-bold text-[#6A04FE] text-2xl">₾</span>
               </div>
               <div className="flex items-center gap-3">
                 <Button
@@ -316,14 +319,14 @@ export function ReservationModal() {
                   className="h-12 text-[#6A04FE] bg-transparent hover:bg-transparent cursor-pointer text-base font-medium px-6 py-4 rounded-full"
                   onClick={() => setStep("details")}
                 >
-                  უკან
+                  Back
                 </Button>
                 <Button
                   type="submit"
                   className="h-12 bg-[#6A04FE] hover:bg-[#6A04FE] cursor-pointer text-white text-base font-medium px-6 py-4 rounded-full"
                   onClick={() => setStep("confirmation")}
                 >
-                  გაგრძელება
+                  Next
                 </Button>
               </div>
             </div>

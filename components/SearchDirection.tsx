@@ -14,7 +14,7 @@ const SearchDirection: FC<SearchDirectionProps> = ({ query, setQuery }) => {
         <Input
           value={query}
           onChange={handleSearchChange}
-          placeholder="ძებნა"
+          placeholder="Search"
           className="w-[300px] h-[48px] py-[12px] px-[16px] pl-[40px] gap-[14px] rounded-full border border-[#EAECF0] focus:outline-none focus:ring-0 focus-visible:ring-0 bg-[#F4F6F7]"
         />
       </div>

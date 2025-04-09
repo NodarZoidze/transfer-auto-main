@@ -89,7 +89,7 @@ const PrivateDetailsForm = ({
           render={({ field }) => (
             <FormItem>
               <FormLabel className="text-[#252324] text-sm font-normal">
-                სრული სახელი
+                Full Name
               </FormLabel>
               <FormControl>
                 <Input
@@ -110,7 +110,7 @@ const PrivateDetailsForm = ({
               render={({ field }) => (
                 <FormItem>
                   <FormLabel className="text-[#252324] text-sm font-normal">
-                    ელფოსტა
+                    Email Adresse
                   </FormLabel>
                   <FormControl>
                     <Input
@@ -132,7 +132,7 @@ const PrivateDetailsForm = ({
               render={({ field }) => (
                 <FormItem>
                   <FormLabel className="text-[#252324] text-sm font-normal">
-                    მობილურის ნომერი
+                    Mobile Number
                   </FormLabel>
                   <FormControl>
                     <Input
@@ -154,12 +154,12 @@ const PrivateDetailsForm = ({
           render={({ field }) => (
             <FormItem>
               <FormLabel className="text-[#252324] text-sm font-normal">
-                დამატებითი ინფორმაცია
+                Vehicle Information
               </FormLabel>
               <FormControl>
                 <Textarea
                   {...field}
-                  placeholder="დამატებითი დეტალები..."
+                  placeholder="Vehicle Information..."
                   className="focus:outline-none focus:ring-0 focus-visible:ring-0 h-[174px]"
                 />
               </FormControl>
@@ -175,13 +175,13 @@ const PrivateDetailsForm = ({
               className="h-12 text-[#6A04FE] bg-transparent hover:bg-transparent cursor-pointer text-base font-medium px-6 py-4 rounded-full"
               onClick={() => setStep("direction")}
             >
-              უკან
+              Back
             </Button>
             <Button
               type="submit"
               className="h-12 bg-[#6A04FE] text-white text-base font-medium px-6 py-4 rounded-full"
             >
-              გაგრძელება
+              Next
             </Button>
           </div>
         </div>

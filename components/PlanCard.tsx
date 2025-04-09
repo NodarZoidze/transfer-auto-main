@@ -85,15 +85,15 @@ const PlanCard = ({
       <div className="flex flex-col gap-4 text-base font-normal">
         <div className="flex items-center gap-3 text-[#252324]">
           <FaRoute className="text-[#6E7375]" size={24} />
-          <span className="text-[#6E7375]">მანძილი: </span> {distance}კმ
+          <span className="text-[#6E7375]">Distance: </span> {distance}km
         </div>
         <div className="flex items-center gap-3 text-[#252324]">
           <FaClock className="text-[#6E7375]" size={24} />
-          <span className="text-[#6E7375]">ჩამოსვლის დრო: </span> {arrivalTime}
+          <span className="text-[#6E7375]">Delivery Time: </span> {arrivalTime}
         </div>
         <div className="flex items-center gap-3 text-[#252324]">
           <FaTruck className="text-[#6E7375]" size={24} />
-          <span className="text-[#6E7375]">სერვისი: </span> {service}
+          <span className="text-[#6E7375]">Service: </span> {service}
         </div>
       </div>
 
@@ -102,8 +102,8 @@ const PlanCard = ({
       {/* Price section */}
       <div className="flex items-center gap-[32px]">
         <div className="w-[52px]">
-          <p className="text-sm text-[#6E7375]">ფასი:</p>
-          <p className="text-2xl font-semibold text-[#252324]">${price}</p>
+          <p className="text-sm text-[#6E7375]">Price:</p>
+          <p className="text-2xl font-semibold text-[#252324]">₾{price}</p>
         </div>
         <ReservationBtn className="flex-1 bg-[#F0EDFF] text-[#6A04FE] font-medium rounded-full hover:bg-[#F0EDFF] cursor-pointer h-12" />
       </div>

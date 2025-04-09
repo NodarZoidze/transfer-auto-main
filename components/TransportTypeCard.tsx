@@ -23,7 +23,7 @@ const TransportTypeCard = ({
           </div>
 
           <ReservationBtn className="bg-[#F0EDFF] hover:bg-[#F0EDFF] text-[#7500FF] font-bold text-sm py-3 px-[14px] rounded-full flex items-center gap-1 w-fit h-10">
-            დაჯავშნა
+            Book
             <ArrowRight size={16} />
           </ReservationBtn>
         </div>
