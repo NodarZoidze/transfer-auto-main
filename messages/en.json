@@ -1,0 +1,58 @@
+{
+  "Hero": {
+    "booking": "Book Now",
+    "selectTransportType": "Select Transport Type",
+    "weTransport": "We transport all types of vehicles with specialized carriers for maximum safety",
+    "deliveryTracking": "On-time delivery with real-time tracking for your peace of mind"
+  },
+  "TransportTypes": {
+    "sedan": "Sedan",
+    "motorcycle": "Motorcycle",
+    "suv": "SUV",
+    "van": "Van"
+  },
+  "PopularDestionations": {
+    "title": "Popular Routes",
+    "from": "Poti",
+    "to": "Tbilisi",
+    "distance": "Distance",
+    "distanceValue": "350km",
+    "deliveryTime": "Delivery Time",
+    "deliveryValue": "1-2 Days",
+    "service": "Service",
+    "serviceValue": "Daily",
+    "price": "Price",
+    "priceValue": "$350"
+  },
+  "WhyUs": {
+    "title": "Why Choose Us",
+    "description": "We provide professional service that exceeds expectations",
+    "fastReliable": "Fast and Reliable",
+    "secure": "Safe and Secure",
+    "competitivePrices": "Competitive Prices",
+    "friendlyTeam": "Friendly Team"
+  },
+  "Contact": {
+    "title": "We’re happy to hear from you",
+    "writeToUs": "Write to our friendly team",
+    "email": "info@transferauto.ge",
+    "visitUs": "Visit our office",
+    "address": "123 Transport Street Tbilisi, Georgia",
+    "callUs": "Call Us",
+    "hours": "Mon-Fri 8:00 - 17:00",
+    "phone": "+1 (555) 000-0000"
+  },
+  "Header": {
+    "navLinks": {
+      "home": "Home",
+      "services": "Services",
+      "routes": "Routes",
+      "whyUs": "Why Us",
+      "contact": "Contact"
+    }
+  },
+  "Footer": {
+    "rights": "TransferAuto © 2024",
+    "terms": "Terms and Conditions"
+  }
+}

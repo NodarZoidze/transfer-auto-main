@@ -1,0 +1,58 @@
+{
+  "Hero": {
+    "booking": "დაჯავშნა",
+    "selectTransportType": "აირჩიე ტრანსპორტის ტიპი",
+    "weTransport": "ჩვენ ვატარებთ ყველა ტიპის ავტომობილს სპეციალიზებული გადამზიდავებით მაქსიმალური უსაფრთხოებისთვის",
+    "deliveryTracking": "დროული მიწოდება რეალურ დროში თვალყურის დევნება თქვენი სიმშვიდისთვის"
+  },
+  "TransportTypes": {
+    "sedan": "სედანი",
+    "motorcycle": "მოტოციკლი",
+    "suv": "ჯიპი",
+    "van": "ფურგონი"
+  },
+  "PopularDestinations": {
+    "title": "პოპულარული მიმართულებები",
+    "from": "ფოთი",
+    "to": "თბილისი",
+    "distance": "მანძილი",
+    "distanceValue": "350კმ",
+    "deliveryTime": "ჩამოსვლის დრო",
+    "deliveryValue": "1-2 დღე",
+    "service": "სერვისი",
+    "serviceValue": "ყოველდღიური",
+    "price": "ფასი",
+    "priceValue": "$350"
+  },
+  "WhyUs": {
+    "title": "რატომ ჩვენ",
+    "description": "ჩვენ გთავაზობთ პროფესიონალურ მომსახურებას, რომელიც აღემატება მოლოდინს",
+    "fastReliable": "სწრაფი და საიმედო",
+    "secure": "უსაფრთხო და საიმედო",
+    "competitivePrices": "კონკურენტული ფასები",
+    "friendlyTeam": "მეგობრული გუნდი"
+  },
+  "Contact": {
+    "title": "ჩვენ სიამოვნებით მოგისმენთ",
+    "writeToUs": "დაუკავშირდით ჩვენს მეგობრულ გუნდს",
+    "email": "info@transferauto.ge",
+    "visitUs": "ეწვიეთ ჩვენს ოფისს",
+    "address": "123 Transport Street Tbilisi, Georgia",
+    "callUs": "დაგვირეკეთ",
+    "hours": "ორშ-პარ 8:00 - 17:00",
+    "phone": "+1 (555) 000-0000"
+  },
+  "Header": {
+    "navLinks": {
+      "home": "მთავარი",
+      "services": "სერვისები",
+      "routes": "მიმართულებები",
+      "whyUs": "რატომ ჩვენ",
+      "contact": "კონტაქტი"
+    }
+  },
+  "Footer": {
+    "rights": "TransferAuto © 2024",
+    "terms": "წესები და პირობები"
+  }
+}
