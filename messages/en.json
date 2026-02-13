@@ -1,0 +1,95 @@
+{
+  "Hero": {
+    "booking": "Book Now",
+    "selectTransportType": "Our Specialized Car Transport Services",
+    "description": "Safe and efficient transport for every type of vehicle",
+    "weTransport": "Fast, Safe & Affordable Car Transport from Port to Your City",
+    "deliveryTracking": "Hassle-free car delivery directly from port to your doorstep."
+  },
+  "TransportTypes": {
+    "title": "Transport Types",
+    "sedan": "Sedan",
+    "sedanDesc": "Standard car – ideal for personal or family vehicles",
+    "motorcycle": "Motorcycle",
+    "motorcycleDesc": "Two-wheeled vehicles, handled with secure equipment",
+    "suv": "SUV",
+    "suvDesc": "Larger vehicles with more space or off-road capability",
+    "jeep": "SUV",
+    "jeepDesc": "Larger vehicles with more space or off-road capability",
+    "van": "Van",
+    "vanDesc": "Commercial or multi-passenger transport vehicles",
+    "furgon": "Van",
+    "furgonDesc": "Commercial or multi-passenger transport vehicles",
+    "book": "Book Now"
+  },
+  "PopularRoutes": {
+    "title": "Popular Port-to-City Transport Routes",
+    "description": "Choose the route that fits your needs",
+    "poti": "Poti",
+    "tbilisi": "Tbilisi",
+    "batumi": "Batumi",
+    "distance": "Distance:",
+    "deliveryTime": "Delivery Time:",
+    "service": "Service:",
+    "everyday": "Everyday",
+    "days": "days",
+    "price": "Price:",
+    "bookNow": "Book Now"
+  },
+  "WhyUs": {
+    "title": "Why Us",
+    "description": "Reliable car transportation from major ports to Georgia.",
+    "trustedTitle": "Trusted by car buyers",
+    "trustedDesc": "Long-term trust with thousands of customers.",
+    "pricingTitle": "Transparent pricing",
+    "pricingDesc": "No hidden fees. No surprise charges.",
+    "updatesTitle": "Real-time updates",
+    "updatesDesc": "Track your car every step of the way.",
+    "teamTitle": "Experienced team",
+    "teamDesc": "Your car is in good hands."
+  },
+  "Contact": {
+    "title": "Get in Touch with TransferAuto",
+    "description": "Have questions or ready to book?",
+    "emailTitle": "Email Us",
+    "emailDesc": "We'll respond within one business day",
+    "visitTitle": "Visit Us",
+    "visitDesc": "Our office is open for appointments",
+    "callTitle": "Call Us",
+    "callDesc": "Mon-Fri, 9:00 AM - 6:00 PM"
+  },
+  "Reservation": {
+    "title": "Service booking",
+    "selectVehicle": "Select Vehicle Type",
+    "next": "Next",
+    "back": "Back",
+    "personalDetails": "Personal Details",
+    "pickupLocation": "Pick-up Location",
+    "dropoffLocation": "Destination",
+    "bookingDetails": "Booking details",
+    "transportType": "Transport type",
+    "fullName": "Full Name",
+    "fullNamePlaceholder": "",
+    "phone": "Mobile Number",
+    "phonePlaceholder": "",
+    "vehicleInfo": "Vehicle Information",
+    "vehicleInfoPlaceholder": "Model, year, VIN or other details...",
+    "email": "Email Address",
+    "confirm": "Confirm",
+    "successTitle": "Booking Successfully Submitted!",
+    "successDesc": "Your request has been received and is being processed."
+  },
+  "Header": {
+    "navLinks": {
+      "home": "Home",
+      "services": "Services",
+      "routes": "Routes",
+      "whyUs": "Why Us",
+      "contact": "Contact"
+    }
+  },
+  "Footer": {
+    "rights": "TransferAuto © 2024",
+    "terms": "Terms and Conditions"
+  }
+}
