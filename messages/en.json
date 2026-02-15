@@ -1,0 +1,96 @@
+{
+  "Hero": {
+    "booking": "Book Now",
+    "selectTransportType": "Professional Car Transport & Towing Services in Georgia",
+    "description": "Safe and efficient vehicle shipping for all types of cars. Reliable towing services from Poti and Batumi ports across Georgia.",
+    "weTransport": "Fast, Safe & Affordable Car Shipping from Port to Your Door",
+    "deliveryTracking": "Hassle-free car delivery directly from Poti or Batumi ports to your doorstep.",
+    "callNow": "Call Now"
+  },
+  "TransportTypes": {
+    "title": "Vehicle Transport Services",
+    "sedan": "Sedan Shipping",
+    "sedanDesc": "Standard car transport – ideal for personal or family vehicles",
+    "motorcycle": "Motorcycle Delivery",
+    "motorcycleDesc": "Two-wheeled vehicles, handled with secure equipment and care",
+    "suv": "SUV & Jeep Transport",
+    "suvDesc": "Reliable shipping for larger SUVs and off-road vehicles from ports",
+    "jeep": "SUV & 4x4 Shipping",
+    "jeepDesc": "Heavy-duty transport for 4x4s and larger pickup trucks",
+    "van": "Van & Commercial Shipping",
+    "vanDesc": "Transport for commercial vans or multi-passenger vehicles",
+    "furgon": "Van & Minibus Transport",
+    "furgonDesc": "Efficient towing and shipping for vans and minibuses",
+    "book": "Book Now"
+  },
+  "PopularRoutes": {
+    "title": "Popular Port-to-City Shipping Routes",
+    "description": "Choose the most reliable route from Poti or Batumi ports",
+    "poti": "Poti Port",
+    "tbilisi": "Tbilisi",
+    "batumi": "Batumi Port",
+    "distance": "Distance:",
+    "deliveryTime": "Delivery Time:",
+    "service": "Service:",
+    "everyday": "Everyday",
+    "days": "days",
+    "price": "Price:",
+    "bookNow": "Book Now"
+  },
+  "WhyUs": {
+    "title": "Why TransferAuto?",
+    "description": "Reliable car transportation from major Georgia ports to any city.",
+    "trustedTitle": "Trusted by Car Importers",
+    "trustedDesc": "Proven track record with thousands of satisfied local and international clients.",
+    "pricingTitle": "Transparent Rates",
+    "pricingDesc": "No hidden fees. Upfront pricing for all towing and transport services.",
+    "updatesTitle": "Real-time Monitoring",
+    "updatesDesc": "Track your car's progress during every stage of the transit.",
+    "teamTitle": "Professional Drivers",
+    "teamDesc": "Your vehicle is in safe hands with our experienced transport team."
+  },
+  "Contact": {
+    "title": "Contact Our Towing Service",
+    "description": "Have questions or ready to book your car shipment?",
+    "emailTitle": "Email Support",
+    "emailDesc": "We'll respond to your inquiry within one business day",
+    "visitTitle": "Visit Our Office",
+    "visitDesc": "Our office is open for in-person consultations",
+    "callTitle": "Call 24/7",
+    "callDesc": "Contact our hotline for immediate car transport assistance"
+  },
+  "Reservation": {
+    "title": "Book Your Shipping",
+    "selectVehicle": "Select Vehicle Type",
+    "next": "Next",
+    "back": "Back",
+    "personalDetails": "Contact Details",
+    "pickupLocation": "Pick-up Port Location",
+    "dropoffLocation": "Delivery Destination",
+    "bookingDetails": "Booking Summary",
+    "transportType": "Vehicle Type",
+    "fullName": "Full Name",
+    "fullNamePlaceholder": "",
+    "phone": "Mobile Number",
+    "phonePlaceholder": "",
+    "vehicleInfo": "Vehicle Details",
+    "vehicleInfoPlaceholder": "Example: Toyota Camry 2022, VIN number or model...",
+    "email": "Email Address",
+    "confirm": "Confirm Booking",
+    "successTitle": "Booking Successfully Submitted!",
+    "successDesc": "Your request has been received. Our team will contact you shortly to confirm."
+  },
+  "Header": {
+    "navLinks": {
+      "home": "Home",
+      "services": "Services",
+      "routes": "Routes",
+      "whyUs": "Why Us",
+      "contact": "Contact"
+    }
+  },
+  "Footer": {
+    "rights": "TransferAuto © 2026 - Professional Car Shipping",
+    "terms": "Terms and Conditions"
+  }
+}
