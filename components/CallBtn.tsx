@@ -9,7 +9,7 @@ interface CallBtnProps {
     phoneNumber?: string;
 }
 
-const CallBtn = ({ className, phoneNumber = "+995511104885" }: CallBtnProps) => {
+const CallBtn = ({ className, phoneNumber = "+995574888687" }: CallBtnProps) => {
     const t = useTranslations("Hero");
 
     return (
