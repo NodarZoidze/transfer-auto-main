@@ -53,7 +53,7 @@ export const contactOptions = [
   {
     title: "Call Us",
     description: "We’re available 24/7",
-    contactInfo: "+995 (511) 10 48 85",
+    contactInfo: "+995 (574) 888 687",
     icon: "/assets/phone.png", // Replace with actual icon path
   },
 ];
