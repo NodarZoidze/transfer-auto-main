@@ -24,7 +24,7 @@ const Hero = async () => {
           {/* აქ items-center ასწორებს მათ ერთ ღერძზე */}
           <div className="flex flex-wrap items-center gap-4 mt-8">
             <ReservationBtn />
-            <CallBtn phoneNumber="+995511104885" />
+            <CallBtn phoneNumber="+995574888687" />
           </div>
         </div>
       </div>
